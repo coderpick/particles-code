@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:#eee ;
+}
+.banner{
+  background: url(../images/glass-of-beer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.banner:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #284869;
+  mix-blend-mode: luminosity;
+}
+
+.banner-next{
+  background: url(../images/poppies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.banner-next:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #403502;
+  mix-blend-mode: soft-light;
+}
+
+
+}
+
+canvas {
+  display: block;
+  vertical-align: middle;
+}
+
+#particles-js,#particles-js-next {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
+
