@@ -10,15 +10,13 @@ And then use
 app.js
 ```
 
-## Built With
 
-* 
 
 ## Getting Started
 
 Add the id ```particles-js``` or ```particles-js-next```
 
-#Also you can edit options from app.js file
+# Also you can edit options from app.js file
   
 
 
